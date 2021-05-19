@@ -524,6 +524,9 @@ nav ul li a:hover, .login i:hover{
     .asked button{
         width: 100%;
     }
+    .asked .details span p {
+        font-size: 15px;
+    }
     .subscribe{
         width: 95%;
     }
