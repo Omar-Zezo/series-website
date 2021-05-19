@@ -524,13 +524,19 @@ nav ul li a:hover, .login i:hover{
     .asked button{
         width: 100%;
     }
+    .subscribe{
+        width: 95%;
+    }
     .subscribe h3{
         font-size: 15px;
     }
     .subscribe form{
-        width: 90%;
+        width: 100%;
         margin: auto;
         display: flex;
+    }
+    .subscribe form input{
+        font-size: 15px !important;
     }
 }
 
