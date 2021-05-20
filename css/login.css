@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start login-page */
+.login-page{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left:0;
+    z-index: 1;
+    background-color: #222;
+    background-image: url('../imgs/login-page.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.login-page span:not(.error){
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgb(0, 0, 0, .5);
+}
+
+.inner-login{
+    width: 450px;
+    height: 600px;
+    background-color: rgb(0, 0, 0, .7);
+    position: absolute;
+    top: 50%;
+    margin-top: -300px;
+    left: 50%;
+    margin-left: -225px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-login-page{
+    width: 70%;
+    height: 80%;
+}
+
+.info-login-page h2{
+    color: #FFF;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0;
+}
+
+.info-login-page input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+    background-color: #222;
+    border-radius: 5px;
+    padding: 15px;
+    word-spacing:3px;
+    outline: #050401;
+    color: #CCC;
+    border: 0;
+    font-size: 15px;
+}
+
+.info-login-page input[type="submit"]{
+    background-color: #AD0201;
+    color: #FFF;
+    font-size: 18px;
+    border: 0;
+    margin-bottom: 10px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.info-login-page input[type='checkbox']{
+    width: 14px;
+    height: 14px;
+}
+
+
+.info-login-page label{
+    font-size: 13px;
+    font-weight: bold;
+    color: #CCC;
+}
+
+.info-login-page strong{
+    color: #CCC;
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.info-login-page strong:hover{
+    border-bottom: 1px solid #CCC;
+}
+
+.social-login{
+    color: #FFF;
+    display: flex;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+
+.social-login img{
+    width: 15px;
+    height: 15px;
+}
+
+.social-login span{
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.login-with-facebook{
+    text-decoration: none;
+}
+
+.signup{
+    display: flex;
+    color: #CCC;
+    margin-top: 30px;
+}
+
+.signup h3{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.signup strong{
+    margin-left: 10px;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.error{
+    color: #df880f;
+    visibility: hidden;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 13px;
+}
+/* end login-page */
